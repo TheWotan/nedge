@@ -16,7 +16,7 @@ use dosamigos\datepicker\DateRangePicker;
 
 <div class="post-search">
     <?php $form = ActiveForm::begin([
-        'action' => ['/'],
+        'action' => ['site/index'],
         'method' => 'get',
     ]); ?>
 
